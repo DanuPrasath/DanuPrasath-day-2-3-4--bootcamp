@@ -1,0 +1,126 @@
+<head>
+    <link href="task2cc.html">
+    <style>
+        header{
+        background-color: black;
+        color: azure;
+        text-align: center;
+    }
+    .filter-btn{
+        background-color: rgb(187, 145, 67);
+        cursor: pointer;
+        padding: 10px 20px;
+        border-radius: 10px;
+        
+    
+    }
+    .filterMenu{
+        margin-top: 20px;
+    }
+    section{
+        
+display: grid;
+grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+gap: 20px;
+padding: 40px 0;
+}
+    img{
+        height: 170px;
+        margin-left: 50px;
+        
+        border-radius: 10px;
+    }
+    
+a{
+    color: #111010;
+}
+    
+    .two{
+        background-color: #fff;
+border-radius: 8px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+overflow: hidden;
+background-color: bisque;
+
+
+    }
+    .three{
+        background-color: #fff;
+border-radius: 8px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+overflow: hidden;
+background-color: blanchedalmond;
+
+    }
+    p{
+        
+        
+        text-align: center;
+        font-size: 1.2rem;
+        text-transform: capitalize;
+        font-style: oblique;
+    }
+    .price{
+       
+        padding: 150px;
+        color: blueviolet;
+        font-size: 1.2rem;
+    }
+    footer{
+background-color: black;
+color: #fff;
+padding: 30px;
+font-size: 2.5rem;
+
+}
+.eight{
+color: aliceblue;
+}
+    
+    </style>
+
+</head>
+<body style="background-image: url('https://wallpaperaccess.com/full/462927.jpg');
+background-size: cover;
+background-position: center;">
+    
+
+    <header>
+        <div class="one">
+        <h1>Restaurant menu</h1>
+        </div>
+        <div class="filterMenu">
+            <button class="filter-btn" onclick="filterMenu('all')" ><a href="task2.html" >All</a></button>
+            <button class="filter-btn" onclick="filterMenu('appetizer')"> <a href="task2c.html" >Appetizer</a></button>
+            <button class="filter-btn" onclick="filterMenu('main')"><a href="task2cc.html">main</a></button>
+            <button class="filter-btn" onclick="filterMenu('Desert')"><a href="task2c.html">Desert</a></button>
+
+        </div>
+    </header>
+    <section  class="item">
+        <div class="two">
+            <center>
+            <h3>Spring Roll</h3>
+            </center>
+            <img src="c:\Users\dhanu\Downloads\spring roll.webp" alt="appetizer" >
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, provident?</p>
+            <span class="price">$5.00</span>
+        </div>
+        <div class="three">
+            <center>
+            <h3>
+                Chicken roll
+            </h3>
+            </center>
+            <img src="c:\Users\dhanu\Downloads\chicken roll.webp" alt="chicken roll">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt, mollitia?</p>
+            <span class="price">$10.00</span>
+        </div>
+    </section>
+        <footer>
+            <p > visit our Restaurant online!Contact:<a href="https://workspace.google.com/intl/en-US/gmail/" class="eight">dhanu@gmai.com</a></p>
+        </footer>
+    </body>
+        
+        
+    
